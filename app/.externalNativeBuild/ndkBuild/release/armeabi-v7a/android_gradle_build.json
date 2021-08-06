@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/Android.mk",
+    "/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "hiaijni-release-armeabi-v7a": {
+      "buildCommand": "/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/build/intermediates/ndkBuild/release/lib /Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libhiaijni.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "hiaijni",
+      "files": [
+        {
+          "src": "/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/buildmodel.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/sources/cxx-stl/llvm-libc++/include -I/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni -DANDROID -std\u003dc++14 -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/classify_async_jni.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/sources/cxx-stl/llvm-libc++/include -I/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni -DANDROID -std\u003dc++14 -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni/classify_sync_jni.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/sources/cxx-stl/llvm-libc++/include -I/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/src/main/jni -DANDROID -std\u003dc++14 -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        }
+      ],
+      "output": "/Users/pmarathe/Desktop/FutureWei/FutureWei-Documents/KnowledgeTransfer/HiAiStuff/Demo_Soure_Code3/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libhiaijni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/Users/pmarathe/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
