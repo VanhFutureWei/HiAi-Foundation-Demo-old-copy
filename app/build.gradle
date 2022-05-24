@@ -9,12 +9,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-        buildToolsVersion "27.0.3"
+    compileSdkVersion 32
+        buildToolsVersion "32.0.0"
     defaultConfig {
         applicationId "com.huawei.hiaidemo"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
         externalNativeBuild {
@@ -33,11 +33,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    externalNativeBuild{
-        ndkBuild{
-            path "src/main/jni/Android.mk"
-        }
-    }
+//    externalNativeBuild{
+//        ndkBuild{
+////            path "src/main/jni/Android.mk"
+//        }
+//    }
 
 //    externalNativeBuild {
 //        cmake {
